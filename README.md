@@ -4,4 +4,3 @@ This 2024 version of Love Letters remixes Nick Montfort’s 2014 reimplementatio
 Strachey’s Love Letters is known as the first work of electronic literature, an algorithm for generating love letters for the 1952 Manchester Mark 1 computer. Montfort shares the code for this project, newly implemented for the web browser. LabSynthE updates the language of the love letters and makes things a little bit complicated. Are we staying together or breaking up? Chance will tell.
 
 Charm your valentine with a candy-infused love, or maybe anti-love, letter. LabSynthE is a laboratory for synthetic and electronic poetry in UT Dallas’ Bass School of Arts, Humanities, and Technology led by xtine burrough.
-![image](https://github.com/xtineburrough/LoveLetters/assets/40456/ede540ef-5a77-4078-8a03-fb186c68f039)
