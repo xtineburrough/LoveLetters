@@ -67,7 +67,7 @@
       const hugeSpace = "<br><br>          ",
         // All non-breaking spaces
         first = ["Dear", "Be Mine", "LOL"],
-        second = ["love", "sweetheart"],
+        second = ["Sweetheart", "Rock Star", "BFF", "Bride", "Goalz"],
         adjectives = [
           "adorable",
           "affectionate",
@@ -87,6 +87,8 @@
           ////from KXT Anti-love Songs
           "<span class=red>irreplaceable</span>",
           "<span class=red>vain</span>",
+          "<span class=red>Blue Valentine</span>",
+          "<span class=red>Sick Of Myself</span>"
         ],
         nouns = [
           "Ur",
@@ -124,18 +126,37 @@
           "<span class=red>feelin</span>",
           "<span class=red>blindness</span>",
           "<span class=red>not in love</span>",
-          "<span class=red>dog</span>"
+          "<span class=red>dog</span>",
+          "<span class=red>We Are Never Ever Getting Back Together</span>",
+          "<span class=red>My Favorite Mistake</span>",
+          "<span class=red> You Say You Don't Love Me</span>",
+          "<span class=red>House Of Jealous Lovers</span>",
+          "<span class=red>I Will Survive</span>",
+          "<span class=red>I Try</span>",
+          "<span class=red>PICK UP YOUR PHONE</span>",
+          "<span class=red>I Just Don't Think I'll Ever Get Over You</span>",
+          "<span class=red>So. Central Rain (I'm Sorry)</span>",
+          "<span class=red>(Sweet Sweet Baby) Since You've Been Gone</span>",
+          "<span class=red>(I'm Not Your) Stepping Stone</span>",
+          "<span class=red>Somebody That I Used To Know</span>",
+          "<span class=red>I Want You Back</span>",
+          "<span class=red>Romeo And Juliet</span>",
+          "<span class=red>Please Call Home</span>",
+          "<span class=red>I Want You Back</span>",
+          "<span class=red>The Scientist</span>"
         ],
-       adverbs = [
+        adverbs = [
           "affectionately",
-          "realz",
+          "for realz",
           "totes",
           "forever",
           "for",
           "yaaas",
           "yaaas",
           //from KXT Anti-love Songs
-          "<span class=red>lovin</span>"
+          "<span class=red>lovin</span>",
+          "<span class=red>Only A Memory</span>",
+          "<span class=red>On Hold</span>"
         ],
         verbs = [
           "hug",
@@ -161,11 +182,23 @@
           "love",
           "dm",
           "hugs and kisses",
-            //from KXT Anti-love Songs
-        "<span class=red>smile</span>",
-        "<span class=red>let go</span>",
-        "<span class=red>lost</span>", 
-        "<span class=red>gimme</span>"
+          //from KXT Anti-love Songs
+          "<span class=red>smile</span>",
+          "<span class=red>let go</span>",
+          "<span class=red>lost</span>",
+          "<span class=red>gimme</span>",
+          "<span class=red>Is She Really Going Out With Him</span>",
+"<span class=red>With or Without You</span>",
+"<span class=red>Losing You</span>",
+"<span class=red>Bye Bye Bye</span>",
+"<span class=red>With Or Without You</span>",
+"<span class=red>Let Me Down Easy</span>",
+"<span class=red>Losing You</span>",
+"<span class=red>Run For Your Life</span>",
+"<span class=red>Keep Me Hanging On</span>",
+"<span class=red>Give Me One Reason</span>",
+"<span class=red>Come Around</span>",
+"<span class=red>Set Fire To The Rain</span>"
         ];
 
       function fullscreenListeners(f) {
@@ -256,10 +289,11 @@
           text +
           hugeSpace +
           "Be mine or too little too late " +
-          pick(adverbs) + "," +
+          pick(adverbs) +
+          "," +
           hugeSpace +
           "     " +
-         "LabSynthE";
+          "LabSynthE";
         return text;
       }
 
@@ -278,7 +312,10 @@
         }
       }
     </script>
-    <title>LabSynthE's Reimplementation Remix: Love Letters (Thank you Montfort &amp; Strachey)</title>
+    <title>
+      LabSynthE's Reimplementation Remix: Love Letters (Thank you Montfort &amp;
+      Strachey)
+    </title>
   </head>
   <body onload="nextText()">
     <header id="nav">
@@ -291,18 +328,21 @@
           > 
           <a onclick="fullscreenEvt(true)">⛶</a>
         </span>
-        Love Letters Reimplementation Remix (2024) by <a href="http://labs.utdallas.edu/labsynthe">LabSynthE</a>
+        Love Letters Reimplementation Remix (2024) by
+        <a href="http://labs.utdallas.edu/labsynthe">LabSynthE</a>
         <br />
         based on Love Letters Reimplemntation (2014) code by
         <a href="https://nickm.com">Nick Montfort</a>
-        also in <a href="love_letters.py">Python 2/3</a> from <a href="https://nickm.com/memslam/">Memory Slam 2.0</a> Batch-Era Text Generators 
+        also in <a href="love_letters.py">Python 2/3</a> from
+        <a href="https://nickm.com/memslam/">Memory Slam 2.0</a> Batch-Era Text
+        Generators
         <br />
         based on Love Letters (1953)
         <a href="https://en.wikipedia.org/wiki/Christopher_Strachey"
           >Christopher Strachey</a
         ><br />
-      
-       <!---- also in <a href="love_letters.py">Python 2/3</a> from <a href="https://nickm.com/memslam/">Memory Slam 2.0</a> Batch-Era Text Generators -->
+
+        <!---- also in <a href="love_letters.py">Python 2/3</a> from <a href="https://nickm.com/memslam/">Memory Slam 2.0</a> Batch-Era Text Generators -->
       </h1>
     </header>
     <div id="main"></div>
