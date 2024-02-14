@@ -55,6 +55,9 @@
       #main {
         padding: 8rem 6vw 3vh 6vw;
       }
+      .red {
+        color: red;
+      }
     </style>
     <script>
       var t = 0,
@@ -82,10 +85,11 @@
           "great",
           "awesome",
           ////from KXT Anti-love Songs
-          "irreplaceable",
-          "vain",
+          "<span class=red>irreplaceable</span>",
+          "<span class=red>vain</span>",
         ],
         nouns = [
+          "Ur",
           "goalz",
           "hug",
           "goalz",
@@ -117,12 +121,12 @@
           "ur",
           "LOL",
           //from KXT Anti-love Songs
-          "feelin",
-          "blindness",
-          "not in love",
-          "dog"
+          "<span class=red>feelin</span>",
+          "<span class=red>blindness</span>",
+          "<span class=red>not in love</span>",
+          "<span class=red>dog</span>"
         ],
-        adverbs = [
+       adverbs = [
           "affectionately",
           "realz",
           "totes",
@@ -131,7 +135,7 @@
           "yaaas",
           "yaaas",
           //from KXT Anti-love Songs
-          "lovin"
+          "<span class=red>lovin</span>"
         ],
         verbs = [
           "hug",
@@ -157,11 +161,11 @@
           "love",
           "dm",
           "hugs and kisses",
-          "smile",
-          //from KXT Anti-love Songs
-          "let go",
-          "lost", 
-          "gimme"
+            //from KXT Anti-love Songs
+        "<span class=red>smile</span>",
+        "<span class=red>let go</span>",
+        "<span class=red>lost</span>", 
+        "<span class=red>gimme</span>"
         ];
 
       function fullscreenListeners(f) {
@@ -215,7 +219,7 @@
           maybe(adverbs) +
           " " +
           pick(verbs) +
-          " ur" +
+          " your" +
           maybe(adjectives) +
           " " +
           pick(nouns) +
