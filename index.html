@@ -67,7 +67,11 @@
       const hugeSpace = "<br><br>          ",
         // All non-breaking spaces
         first = ["Dear", "Be Mine", "LOL"],
-        second = ["Sweetheart", "Rock Star", "BFF", "Bride", "Goalz"],
+        second = ["Sweetheart", "Rock Star", "BFF", "Bride", "Goalz", "Love Bug", "Honey Bun", "Cutie Pie",
+    //From KXT Anti-love Song Playlist
+        "<span class=red>Cold Little Heart</span>",
+          "<span class=red>Blue Valentine</span>"
+        ],
         adjectives = [
           "adorable",
           "affectionate",
@@ -84,11 +88,21 @@
           "cool",
           "great",
           "awesome",
+          "ur great", 
+          "sweet",
+          "cool",
+          "nice",
+          "laugh",
+          "cool",
+          "bae",
+          "cool",
+          "ur great",
           ////from KXT Anti-love Songs
           "<span class=red>irreplaceable</span>",
-          "<span class=red>vain</span>",
-          "<span class=red>Blue Valentine</span>",
-          "<span class=red>Sick Of Myself</span>"
+          "<span class=red>You're So Vain</span>",
+          "<span class=red>Sick Of Myself</span>",
+          "<span class=red>Cold Little Heart</span>",
+          "<span class=red>Blue Valentine</span>"
         ],
         nouns = [
           "Ur",
@@ -122,14 +136,31 @@
           "love",
           "ur",
           "LOL",
+          "honey bun",
+          "Groom",
+          "bae",
+          "you",
+          "I", 
+          "smile", 
+          "crush", 
+          "the best", 
+          "ur", 
+          "BFF", 
+          "real like", 
+          "cutie pie",
+          "love bug", 
+          "date night", 
+          "you and me", 
+          "cool", 
+          "you &amp; me", 
+          "you're so cool",
           //from KXT Anti-love Songs
-          "<span class=red>feelin</span>",
-          "<span class=red>blindness</span>",
-          "<span class=red>not in love</span>",
-          "<span class=red>dog</span>",
+          "<span class=red>You've Lost That Lovin' Feelin</span>",
+          "<span class=red>Love is Blindness</span>",
+          "<span class=red>Not In Love</span>",
           "<span class=red>We Are Never Ever Getting Back Together</span>",
           "<span class=red>My Favorite Mistake</span>",
-          "<span class=red> You Say You Don't Love Me</span>",
+          "<span class=red>You Say You Don't Love Me</span>",
           "<span class=red>House Of Jealous Lovers</span>",
           "<span class=red>I Will Survive</span>",
           "<span class=red>I Try</span>",
@@ -143,7 +174,17 @@
           "<span class=red>Romeo And Juliet</span>",
           "<span class=red>Please Call Home</span>",
           "<span class=red>I Want You Back</span>",
-          "<span class=red>The Scientist</span>"
+          "<span class=red>The Scientist</span>",
+          "<span class=red>(I Know) I'm Losing You</span>",
+          "<span class=red> Never Talking To You Again</span>",
+          "<span class=red> My Favorite Mistake</span>",
+          "<span class=red>Love Is A Burden</span>",
+          "<span class=red>Love Will Tear Us Apart</span>",
+          "<span class=red>Nothing Compares 2 U</span>",
+          "<span class=red>Maggie May</span>",
+            "<span class=red>Random Lover</span>",
+            "<span class=red>Pictures of You</span>",
+            "<span class=red>This Is Not a Love Song</span>"
         ],
         adverbs = [
           "affectionately",
@@ -153,8 +194,9 @@
           "for",
           "yaaas",
           "yaaas",
+          "totes",
           //from KXT Anti-love Songs
-          "<span class=red>lovin</span>",
+          "<span class=red>Heartbreaker/Livin' Lovin' Maid</span>",
           "<span class=red>Only A Memory</span>",
           "<span class=red>On Hold</span>"
         ],
@@ -182,6 +224,25 @@
           "love",
           "dm",
           "hugs and kisses",
+          "xoxo",
+          "hugz",
+          "dm me",
+          "be true",
+          "wink wink",
+          "giggle",
+          "hang",
+          "melt",
+          "crush U",
+          "marry me",
+          "crush on you",
+          "i luv u",
+          "adores",
+          "attracts",
+          "miss",
+          "be",
+          "call",
+          "call me",
+          "love you miss you",
           //from KXT Anti-love Songs
           "<span class=red>smile</span>",
           "<span class=red>let go</span>",
@@ -198,7 +259,16 @@
 "<span class=red>Keep Me Hanging On</span>",
 "<span class=red>Give Me One Reason</span>",
 "<span class=red>Come Around</span>",
-"<span class=red>Set Fire To The Rain</span>"
+"<span class=red>Set Fire To The Rain</span>",
+"<span class=red>Dancing On My Own</span>",
+"<span class=red>Set Me Free</span>",
+"<span class=red>Since U Been Gone</span>",
+"<span class=red>Forget You</span>",
+"<span class=red>Dancing On My Own</span>",
+    "<span class=red>Don't Do Me Like That</span>",
+        "<span class=red>Can't Stand Losing You</span>",
+            "<span class=red>Gimme Back My Dog</span>",
+            "<span class=red>You Oughta Know</span>"
         ];
 
       function fullscreenListeners(f) {
@@ -269,7 +339,7 @@
           type,
           you_are = false,
           text = "";
-        text = text + pick(first) + " " + pick(second) + "<br><br>";
+        text = text + pick(first) + " " + pick(second) + "," + "<br><br>";
         for (i = 0; i < 10; i = i + 1) {
           type = pick(["longer", "shorter"]);
           if (type === "longer") {
