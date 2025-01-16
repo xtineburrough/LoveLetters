@@ -9,6 +9,6 @@ LabSynthE is a laboratory for synthetic and electronic poetry in UT Dallas’ Ba
 
 This is a work of art was originally made to be viewed in the web browser (February 2024). In April 2024, we exhibited the project as a large-format video in AURORA's Video Art Nights in Pegasus Plaza, Downtown Dallas.
 
-The project can be [viewed in the browser](https://xtineburrough.github.io/LoveLetters/)
+[View this in the browser](https://xtineburrough.github.io/LoveLetters/)
 
 [See a short video about the project](https://vimeo.com/1030900435)
