@@ -7,7 +7,7 @@ We may be writing love letters or break-up notes, only the algorithm knows. View
 
 LabSynthE is a laboratory for synthetic and electronic poetry in UT Dallas’ Bass School of Arts, Humanities, and Technology led by xtine burrough.
 
-This is a work of art was originally made to be viewed in the web browser (February 2024). In April 2024, we exhibited the project as a large-format video in AURORA's Video Art Nights in Pegasus Plaza, Downtown Dallas.
+This work of art was originally made to be viewed in the web browser (February 2024). In April 2024, we exhibited the project as a large-format video in AURORA's Video Art Nights in Pegasus Plaza, Downtown Dallas.
 
 [View this in the browser](https://xtineburrough.github.io/LoveLetters/)
 
